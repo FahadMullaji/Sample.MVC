@@ -10,6 +10,6 @@ namespace Sample.MVC
         public int ServiceCredits { get; set; }
         public int BenefitRate { get; set; }
         public int FAS { get; set; }
-        public int CalculateBenefit() => (ServiceCredits * BenefitRate / FAS);
+        public int CalculateBenefit() => (ServiceCredits * BenefitRate * FAS);
     }
 }
